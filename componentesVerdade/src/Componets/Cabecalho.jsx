@@ -1,8 +1,10 @@
+import "./Cabecalho.css"
+
 function Cabecalho() {
   return (
     <div className="Cabecalho-container">
-      <h1>Feliz seu aniversário!</h1>
-      <p>Vamos cantar parabéns pra Laura?</p>
+      <h1>Como treinar seu dragão</h1>
+      <p>link 1 | link 2 | link 3</p>
     </div>
   )
 }

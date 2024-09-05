@@ -1,6 +1,6 @@
-
 import './App.css'
 import Cabecalho from './Componets/Cabecalho.jsx'
+import Corpo from './Componets/Corpo'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <>
     <Cabecalho />
     {/* <Links  /> */}
+    <Corpo />
     </>
   )
 }
