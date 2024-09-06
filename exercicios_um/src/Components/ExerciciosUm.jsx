@@ -21,7 +21,7 @@ function ExerciciosUm() {
   }
 
   return (
-    <div>
+    <div className="exer_container">
       <h2>Informaremos se o número digitdo é positivo, negativo ou nulo</h2>
       <button onClick={clickNumero}>Click</button>
       {resultado}

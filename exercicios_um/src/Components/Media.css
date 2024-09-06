@@ -1,6 +1,42 @@
+body{
+    background-color: rgb(222, 233, 255);
+}
 .Media_container{
-    border: 1px dotted black;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    }
+    width: fit-content;
+    height: 1%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.button_media button{
+  height: 10%;
+   width: 15%;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   color: rgb(41, 41, 41);
+   background-color: rgb(173, 214, 250);
+   font-family: poppins;
+}
+
+
+.exer_container{
+    width: fit-content;
+    height: 30%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+ 
+.media2_container{
+    width: fit-content;
+    height: 30%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
