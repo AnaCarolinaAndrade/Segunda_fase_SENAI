@@ -1,0 +1,17 @@
+.garcom_container{
+    width: fit-content;
+    height: 1%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+
+   height: 10%;
+   width: 15%;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   color: rgb(41, 41, 41);
+   background-color: rgb(173, 214, 250);
+   font-family: poppins;
+
+}
