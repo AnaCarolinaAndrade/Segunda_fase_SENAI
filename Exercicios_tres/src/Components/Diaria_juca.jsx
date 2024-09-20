@@ -26,17 +26,22 @@
 import React from 'react'
 import { useState } from 'react'
 
-function valores_diarias(){
-let valor_desconto_dez= 10
-let valor_deconto_quinze=15
-
-    if(input_diarias == 5){
-    
-    }
-}
-
 function Diaria_juca() {
 const[input_diarias, set_input_diarias]=useState('')
+
+function valores_diarias(){
+  let valor_diarias,  valor_com_desconto, valor_total_pagar
+  let desconto_calculo
+  
+      if(input_diarias <= 5){
+      valor_diarias= input_diarias * 100
+      desconto_calculo=  25/100 * valor_diarias
+      valor_com_desconto= valor_diarias - desconto_calculo
+      valor_total_pagar= valor_com_desconto + 150
+  
+      alert('valor das diarias: ' + valor_diarias , 'valor com deconto:' + valor_com_desconto , 'valor da multa: 150', 'valor total para Joca pagar: ' + valor_total_pagar )
+      }
+  }
 
   return (
     <div>
@@ -45,14 +50,15 @@ const[input_diarias, set_input_diarias]=useState('')
        <h3>Digite as diarias de joca que daremos o valor total para ele pagar</h3>
 
        <label htmlFor='input_diarias'>Quantidades de diarias que joca irá ficar:</label>
-       <input type='text' id='input_diarias'></input>
+       <input type='number' id='input_diarias'></input>
        {input_diarias}
 
-       <button onClick={'valores_diarias'}>Valores</button>
+       <button onClick={'valores_diarias'}>Valores</button>""
        </center>
        
     </div>
   )
 }
+
 
 export default Diaria_juca
